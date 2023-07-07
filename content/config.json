@@ -1,5 +1,5 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Blog by Tami Kim 🦦",
   "url": "https://lumen.alxshelepenok.com",
   "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   "copyright": "© All rights reserved.",
@@ -22,9 +22,9 @@
     }
   ],
   "author": {
-    "name": "John Doe",
-    "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "name": "Tami Kim",
+    "photo": "/photo.png",
+    "bio": "Create Front End Developer 🦦",
     "contacts": {
       "rss": "",
       "email": "",
