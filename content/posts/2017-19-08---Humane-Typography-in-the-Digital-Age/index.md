@@ -1,5 +1,5 @@
 ---
-title: 의미없는
+title: undefined
 date: "2023-07-07"
 template: "post"
 draft: false
