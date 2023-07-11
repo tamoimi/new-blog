@@ -40,8 +40,7 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       </div>
 
       <div className={styles.comments}>
-        {/* <Comments postSlug={slug} postTitle={post.frontmatter.title} /> */}
-        <Comments />
+        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
     </div>
   );
