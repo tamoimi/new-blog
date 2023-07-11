@@ -7,6 +7,7 @@ import { Meta } from "@/components/Meta";
 import { Post } from "@/components/Post";
 import { useSiteMetadata } from "@/hooks";
 import { Node } from "@/types";
+import { Comments } from "@/components/Post/Comments";
 
 interface Props {
   data: {
@@ -17,7 +18,7 @@ interface Props {
 const PostTemplate: React.FC<Props> = ({ data: { markdownRemark } }: Props) => (
   <Layout>
     <Post post={markdownRemark} />
-
+    <Comments/>
   </Layout>
 );
 
