@@ -5,12 +5,13 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import type { Node } from "@/types";
 
 import { Author } from "./Author";
-import { Comments } from "./Comments";
+// import { Comments } from "./Comments";
 import { Content } from "./Content";
 import { Meta } from "./Meta";
 import { Tags } from "./Tags";
 
 import * as styles from "./Post.module.scss";
+import { Comments } from "../Utterances";
 
 interface Props {
   post: Node;
@@ -39,7 +40,8 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       </div>
 
       <div className={styles.comments}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        {/* <Comments postSlug={slug} postTitle={post.frontmatter.title} /> */}
+        <Comments />
       </div>
     </div>
   );
