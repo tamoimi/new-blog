@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 const COMMENTS_ID = "comments-container";
 const Comments = () => {
   useEffect(() => {
-    const toggleDark = document.body.classList.contains("dark"); 
+    const toggleDark = document.body.classList.contains("dark");
     const script = document.createElement("script");
     script.src = "https://utteranc.es/client.js";
     // Replace with the repo on which you configured Utterances
     script.setAttribute("repo", "tamoimi/new-blog");
-    script.setAttribute("issue-term", "new-blog");
+    script.setAttribute("issue-term", "pathname");
     script.setAttribute("theme", toggleDark? "icy-dark": "github-light"); 
     script.setAttribute("crossorigin", "anonymous");
     script.async = true;
