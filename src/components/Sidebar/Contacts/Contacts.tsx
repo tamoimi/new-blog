@@ -43,7 +43,7 @@ const Contacts: React.FC<Props> = ({ contacts }: Props) => (
         ) : null,
       )}
     </ul>
-  </div>
+  </div>                        
 );
 
 export default Contacts;
