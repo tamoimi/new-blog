@@ -14,11 +14,11 @@ const Author = () => {
         {author.bio}
         <a
           className={styles.twitter}
-          href={getContactHref("github", author.contacts.github)}
+          href={getContactHref("twitter", author.contacts.twitter)}
           rel="noopener noreferrer"
-          target="https://github.com/tamoimi"
+          target="_blank"
         >
-          <strong>{author.name}</strong> on github
+          <strong>{author.name}</strong> on Twitter
         </a>
       </p>
     </div>
