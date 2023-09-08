@@ -19,6 +19,25 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing:0;
+  margin: 20px auto;
+  width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #999;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+table thead th {
+  font-weight: 600;
+}
+
 h2,
 h1,
 h3,
